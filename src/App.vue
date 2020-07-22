@@ -26,5 +26,8 @@
 </script>
 
 <style lang="scss">
-
+@import './assets/styles/vars.scss';
+body {
+  background-color: $bodybackground;
+}
 </style>
