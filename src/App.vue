@@ -1,10 +1,8 @@
 <template>
-  <div class="container">
+  <div class="main">
   	   <app-header></app-header>
-  	   <div class="row">
-            <div class="col-xs-12">
-            	<router-view></router-view>
-            </div>  	   	
+  	   <div>
+             	<router-view></router-view>   	
   	   </div>
        
   </div>
@@ -26,5 +24,15 @@
 </script>
 
 <style lang="scss">
-
+@import './assets/styles/vars.scss';
+body {
+  background-color: $bodybackground;
+  padding: 0;
+  
+}
+.main{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 </style>
