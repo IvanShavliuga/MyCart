@@ -46,8 +46,8 @@
      }
   }
   &__topline {
-     background-color: rgba(0,28,32,0.8); 
-     border-bottom: 2px solid red; 
+     background-color: rgba(0,69,68,0.8); 
+     border-bottom: 2px solid #236968; 
      height: 100px;
   }
   &__products{
@@ -124,7 +124,9 @@
         border-radius: 5px;
         margin-top: 60px;
         &:hover {
-          background-color: #df67c0;
+          background-color: #DB0960;
+          border-color: #DB0960;
+          outline: none;
           color: white;
           text-decoration: none;
         }   
