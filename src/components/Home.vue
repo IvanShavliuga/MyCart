@@ -1,8 +1,6 @@
-<img src="logo.png" alt="" /><template >
+<template >
 	<div class="box-start">
-		<p class="t1">Welcome To MyCart</p>		
-		<p class="t2">Your Shopping Cart</p>
-		<router-link to="/Products" class="btn-main"><span class="glyphicon glyphicon-tags" style="margin-right: 5px;"></span> Start Shopping</router-link>
+		заглушка
 	</div>
 </template>
 <script >
@@ -24,11 +22,7 @@
 	font-size: 20px;
 	}
 	.box-start {
-   position: absolute;
-  margin-top: 220px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    margin: 0;
 }
    .btn-main {
     background-color: transparent;
@@ -37,7 +31,7 @@
     font-size: 12px;
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 0;
    }
    .btn-main:hover {
      background-color: black;
